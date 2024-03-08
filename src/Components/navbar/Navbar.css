@@ -1,0 +1,15 @@
+.navbar {
+    position: sticky;
+    top: 0;
+    font-size: 0.8rem;
+    letter-spacing: 0.3px;
+    z-index: 999;
+}
+
+.navbar-brand-img {
+    height: 2rem;
+}
+
+.navbar .nav-link {
+    color: #000;
+}

@@ -1,0 +1,30 @@
+.wrapper-mutual-growth-main {
+    margin: 8rem 0 0 0;
+    padding: 25px;
+}
+
+.wrapper-mutual-growth-main img {
+    height: 3rem;
+    width: 3rem;
+    border-radius: 100%;
+    margin-bottom: 1rem;
+}
+
+.wrapper-mutual-growth-main2-img {
+    background: url('../../../public/images/img4.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 42rem;
+    background-position: -5rem;
+}
+
+.rating .checked {
+    color: orangered;
+}
+
+@media only screen and (max-width: 767px) {
+    .wrapper-mutual-growth-main2-img {
+        height: 15rem;
+        background-position: -0rem;
+    }
+}

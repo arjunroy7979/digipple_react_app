@@ -1,0 +1,13 @@
+.wrapper-view-video-img {
+    background: url('../../../public/images/View-Video.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 30rem;
+}
+
+@media only screen and (max-width: 767px) {
+    .wrapper-view-video-img {
+        height: 15rem;
+    }
+
+}

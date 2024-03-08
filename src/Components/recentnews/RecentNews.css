@@ -1,0 +1,48 @@
+.wrapper-recent-news,
+.wrapper-recent-news .card {
+    background-color: #f8f8f8;
+    padding: 10px;
+}
+
+.wrapper-recent-news-main {
+    display: flex;
+    justify-content: space-around;
+}
+
+.wrapper-recent-news-header {
+    margin-right: 4rem;
+}
+
+.wrapper-recent-news .card {
+    margin-bottom: 1.5rem;
+}
+
+.wrapper-recent-news .card:hover {
+    background: url('../../../public/images/Branding-Guide.jpg');
+    background-size: cover;
+    cursor: pointer;
+}
+
+.wrapper-recent-news p {
+    font-size: 0.6rem;
+    letter-spacing: 0.1px;
+}
+
+.wrapper-recent-news .card img {
+    height: 2rem;
+}
+
+.wrapper-recent-news-details {
+    margin-top: 9rem;
+}
+
+@media only screen and (max-width: 767px) {
+    .wrapper-recent-news-main {
+        flex-direction: column;
+    }
+
+    .wrapper-recent-news .card {
+        margin-top: 1rem;
+    }
+
+}

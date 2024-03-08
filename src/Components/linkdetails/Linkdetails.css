@@ -1,0 +1,25 @@
+.wrapper-link-details {
+    display: flex;
+    text-align: center;
+    letter-spacing: 0.2px;
+}
+
+.about,
+.careers {
+    background-color: #ff6900;
+    color: #fff;
+    padding: 40px;
+}
+
+.portfolio {
+    background-color: #000;
+    color: #fff;
+    padding: 40px;
+}
+
+@media only screen and (max-width: 767px) {
+    .wrapper-link-details {
+        flex-direction: column;
+    }
+
+}

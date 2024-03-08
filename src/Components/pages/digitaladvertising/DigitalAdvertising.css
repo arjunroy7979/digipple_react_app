@@ -1,0 +1,148 @@
+.wrapper-digital-advertising-img {
+    background: url('../../../../public/images/Digital_ads_head.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 32rem;
+}
+
+.wrapper-digital-advertising-img-text {
+    width: 50%;
+    position: relative;
+    top: 7.5rem;
+    right: 14.5rem;
+}
+
+.digital-adv-wrapper-branding {
+    background-color: #000;
+    padding: 50px;
+    color: #fff;
+}
+
+.digital-adv-wrapper-branding-main-text1-child {
+    border: 1px solid #000;
+    border-bottom-color: #fff;
+}
+
+.digital-adv-wrapper-branding-main-text1 h3 {
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+}
+
+.digital-adv-wrapper-branding-main-text2 {
+    margin-top: 2rem;
+}
+
+.digital-adv-services-wrapper {
+    padding: 20px;
+}
+
+.accordian-wrapper-main h3 {
+    border: 1px solid #fff;
+    border-bottom-color: #000;
+    padding: 10px;
+    margin-bottom: 1rem;
+}
+
+.accordian-wrapper .accordian li {
+    list-style: none;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    border-radius: 8px;
+}
+
+.accordian-wrapper .accordian li label {
+    display: flex;
+    align-items: center;
+    padding: 3px;
+    font-size: 13px;
+    font-weight: 500;
+    cursor: pointer;
+    border-radius: 4px;
+    background-color: #f3f3f3;
+}
+
+.accordian-wrapper label::before {
+    content: '+';
+    margin-right: 10px;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.accordian-wrapper .accordian input[type='radio'] {
+    display: none;
+}
+
+.accordian-wrapper .accordian .content {
+    color: #555;
+    padding: 0 10px;
+    line-height: 26px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s, padding 0.5s;
+}
+
+.accordian-wrapper .accordian input[type='radio']:checked+label+.content {
+    max-height: 200px;
+}
+
+.accordian-wrapper .accordian input[type='radio']:checked+label::before {
+    content: '-';
+}
+
+.digital-adv-platforms {
+    padding: 20px;
+}
+
+.progress-child {
+    width: 50%;
+}
+
+.digital-adv-platforms-child {
+    margin-top: 3rem;
+}
+
+form {
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 1px 0px 10px 0px rgba(254.25, 97.20376417769377, 1.6581521739130338, .5);
+}
+
+.digital-adv-ser-wrapper-main {
+    padding: 40px;
+}
+
+.digital-adv-wrapper-asked-ques {
+    background-color: #f8f8f8;
+}
+
+.digital-adv-wrapper-query-form {
+    padding: 20px;
+}
+
+@media only screen and (max-width: 767px) {
+    .wrapper-digital-advertising-img {
+        height: 18rem;
+    }
+
+    .wrapper-digital-advertising-img-text {
+        width: 100%;
+        right: 0rem;
+        top: 0rem;
+    }
+
+    .digital-adv-wrapper-branding {
+        padding: 10px;
+    }
+
+    .digital-adv-platforms-child {
+        margin-top: 0rem;
+    }
+
+    .digital-adv-ser-wrapper-main {
+        padding: 0px;
+    }
+    .digital-adv-wrapper-query-form{
+        padding: 10px;
+    }
+}

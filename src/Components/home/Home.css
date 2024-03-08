@@ -1,0 +1,111 @@
+.--btn {
+    background-color: #ff6900 !important;
+    border-color: #ff6900 !important;
+}
+
+.--btn:hover {
+    background-color: #cc5a09 !important;
+}
+
+.wrapper-adv {
+    background-color: #000;
+    padding: 50px;
+    color: #fff;
+}
+
+.wrapper-adv-img {
+    background: url('../../../public/images/img5.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.wrapper-adv-img h2 {
+    color: #fff;
+    margin-top: 18rem;
+}
+
+.wrapper-branding-text1 h1 {
+    margin-bottom: 3rem;
+}
+
+.wrapper-branding-text1-child {
+    border: 1px solid #fff;
+    border-bottom-color: #000;
+    margin: 1rem 0 2rem 0;
+}
+
+.wrapper-branding-text2 p {
+    margin-top: 2.5rem;
+}
+
+.wrapper-digital-branding,
+.wrapper-mutual-growth {
+    background-color: #f8f8f8;
+    margin-top: 40px;
+}
+
+.accordian li {
+    list-style: none;
+    width: 100%;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.accordian li label {
+    display: flex;
+    align-items: center;
+    padding: 1px;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.accordian label::before {
+    content: '+';
+    margin-right: 10px;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.accordian input[type='radio'] {
+    display: none;
+}
+
+.accordian .content {
+    color: #555;
+    padding: 0 10px;
+    line-height: 26px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s, padding 0.5s;
+}
+
+.accordian input[type='radio']:checked+label+.content {
+    max-height: 200px;
+}
+
+.accordian input[type='radio']:checked+label::before {
+    content: '-';
+}
+
+
+@media only screen and (max-width: 767px) {
+    .wrapper-adv h2 {
+        font-size: 1.7rem;
+    }
+
+    .wrapper-adv button {
+        margin: 1rem 0 0 0;
+    }
+
+    .wrapper-adv-img h2 {
+        margin-top: 0rem;
+        font-size: 1.8rem;
+    }
+
+    .wrapper-adv-img button {
+        margin: 4rem 0 0.5rem 0;
+    }
+
+}

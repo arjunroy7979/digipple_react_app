@@ -1,0 +1,42 @@
+[
+    {
+        "id": 1,
+        "name": "Digital Marketing",
+        "link": "digital-marketing"
+    },
+    {
+        "id": 2,
+        "name": "Digital Advertising",
+        "link": "digital-advertising"
+    },
+    {
+        "id": 3,
+        "name": "Digital Branding",
+        "link": "digital-branding"
+    },
+    {
+        "id": 4,
+        "name": "Creative Design",
+        "link": "creative-design"
+    },
+    {
+        "id": 5,
+        "name": "WordPress",
+        "link": "wordpress"
+    },
+    {
+        "id": 6,
+        "name": "Blogs",
+        "link": "blogs"
+    },
+    {
+        "id": 7,
+        "name": "About Us",
+        "link": "about-us"
+    },
+    {
+        "id": 8,
+        "name": "Contact Us",
+        "link": "contact-us"
+    }
+]

@@ -1,7 +1,9 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
 import './Footer.css'
 const Footer = () => {
+    const [open, setOpen] = useState(false);
+    const [opensearch, setOpenSearch] = useState(false);
     return (
         <>
             <footer>
@@ -77,23 +79,77 @@ const Footer = () => {
                     </div>
                 </div>
             </footer>
-            
+
             <div className='footer-side-links'>
                 <div>
                     <strong>Scroll to top</strong>
                 </div>
-                <i className="fas fa-search"></i>
+                {
+                    opensearch && (
+                        <div className='form-serach'>
+                            <i className="fa fa-times-circle btn" onClick={() => setOpenSearch(false)}></i>
+                            <input type='text' placeholder='Search Here...' className='form-control' />
+                        </div>
+                    )
+                }
+                <i className="fas fa-search btn" onClick={() => setOpenSearch(true)}></i>
                 <div className='social-link'>
                     <p>Follow Us -</p>
                     <Link to={'/#facebook'} className="fab fa-facebook text-dark"></Link>
                     <Link to={'/#linkedin'} className="fab fa-linkedin-in text-dark"></Link>
                     <Link to={'/#twitter'} className="fab fa-twitter-square text-dark"></Link>
                 </div>
-                <div className='comment'>
-                    <span className="badge badge-light">1</span>
-                    <i className="fas fa-comment-alt"></i>
-                </div>
-            </div>
+                {/* --chat support-- */}
+                {
+                    open && (
+                        <div className='chat-support'>
+                            <div className='container'>
+                                <div className='row'>
+                                    <div className='col-12 col-md-8'>
+                                        <h4>Arjun Here</h4>
+                                    </div>
+                                    <div className='col-12 col-md-2'>
+                                        <i class="fa fa-ellipsis-v btn"></i>
+                                    </div>
+                                    <div className='col-12 col-md-2'>
+                                        <i class="fas fa-angle-down btn" onClick={() => setOpen(false)}></i>
+                                    </div>
+                                </div>
+                                <div className='row'>
+                                    <div className='col-12 col-md-10'>
+                                        <p>Welcome to our website. Ask me anything🎉</p>
+                                    </div>
+                                    <div className='col-12 col-md-2'>
+                                        <img src='../images/customercare.png' alt='img' style={{ height: '2.5rem', position: 'relative', right: '2rem' }} />
+                                    </div>
+                                </div>
+                                <div className='row'>
+                                    <div className='col-12 col-md-12 d-flex'>
+                                        <i class="fa fa-circle text-success"></i>
+                                        <p className='mx-2'>Arjun Here to Help you from Digipple</p>
+                                    </div>
+                                </div>
+                                <div className='row'>
+                                    <div className='col-12 col-md-12'>
+                                        <input type='text' placeholder='Enter Your Message...' className='form-control' />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    )
+                }
+                {
+                    open ? <div className='comment'>
+                        <span span className="badge badge-light">1</span>
+                        <i className="fa fa-paper-plane btn"></i>
+                    </div > : <div className='comment'>
+                        <span span className="badge badge-light">1</span>
+                        <i className="fas fa-comment-alt btn" onClick={() => setOpen(true)}></i>
+                    </div >
+                }
+
+
+            </div >
         </>
     )
 }

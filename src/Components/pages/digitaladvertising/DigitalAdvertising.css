@@ -116,9 +116,6 @@ form {
     background-color: #f8f8f8;
 }
 
-.digital-adv-wrapper-query-form {
-    padding: 20px;
-}
 
 @media only screen and (max-width: 767px) {
     .wrapper-digital-advertising-img {
@@ -141,8 +138,5 @@ form {
 
     .digital-adv-ser-wrapper-main {
         padding: 0px;
-    }
-    .digital-adv-wrapper-query-form{
-        padding: 10px;
     }
 }

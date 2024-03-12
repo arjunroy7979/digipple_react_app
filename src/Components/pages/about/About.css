@@ -1,0 +1,106 @@
+.about-wrapper-container-bg {
+    background: url('../../../../public/images/BG-About-1.jpg');
+    height: 26rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.about-wrapper-container-bg-container {
+    position: relative;
+    top: 2rem;
+}
+
+.about-wrapper-container-bg h1 {
+    width: 30%;
+}
+
+.about-wrapper-container-bg-child {
+    display: flex;
+    gap: 3rem;
+    padding: 2rem;
+}
+
+.about-wrapper-container-bg-child div {
+    border: 1px solid #fff;
+    border-top-color: #ff6400;
+    width: 5%;
+    padding: 0.5rem;
+}
+
+.about-wrapper-capabilities {
+    padding: 4rem;
+    background-color: #f9f9f9;
+}
+
+.about-wrapper-capabilities-child {
+    border: 1px solid #f9f9f9;
+    border-left-color: #000;
+}
+
+.about-wrapper-capabilities-child:hover {
+    border: 1px solid #f9f9f9;
+    border-left-color: #ff6400;
+}
+
+.about-wrapper-work-etics {
+    background-color: #1d1d1d;
+    padding: 4rem;
+    color: #fff;
+}
+
+.about-wrapper-work-etics-child1 a {
+    color: #fff;
+}
+
+.about-wrapper-work-etics-child1 a:hover {
+    background-color: #ff6400;
+    border-color: #ff6400;
+    color: #fff;
+}
+
+.about-wrapper-work-etics-child1 h1 {
+    width: 60%;
+    margin-bottom: 3rem;
+}
+
+.about-wrapper-work-etics-child1 p {
+    margin-bottom: 3rem;
+}
+
+@media only screen and (max-width: 767px) {
+    .about-wrapper-container-bg-child {
+        display: flex;
+        gap: 3rem;
+        flex-direction: column;
+    }
+
+    .about-wrapper-container-bg h1 {
+        width: 100%;
+    }
+
+    .about-wrapper-container-bg-container {
+        top: 0.3rem;
+    }
+
+    .about-wrapper-container-bg-child {
+        gap: 3rem;
+        padding: 0.3rem;
+    }
+
+    .about-wrapper-container-bg-child div {
+        width: 50%;
+        padding: 0.5rem;
+    }
+
+    .about-wrapper-capabilities,
+    .about-wrapper-work-etics {
+        padding: 0.5rem;
+    }
+
+    .about-wrapper-work-etics-child1 h1,
+    .about-wrapper-work-etics-child1 p {
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+
+}

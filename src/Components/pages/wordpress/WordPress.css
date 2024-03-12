@@ -1,0 +1,102 @@
+.wordpress-wrapper-img {
+    background: url('../../../../public/images/WEB-DESIGN.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 28rem;
+    background-position: 20rem;
+}
+
+.wordpress-wrapper-img h3 {
+    width: 28%;
+    position: relative;
+    left: 19rem;
+    top: 8.2rem;
+}
+
+.wordpress-conculation {
+    background-color: #000;
+    padding: 4rem;
+    color: #fff;
+}
+
+.wordpress-conculation-col1 p {
+    border: 1px solid black;
+    border-bottom-color: #fff;
+    padding-bottom: 1.5rem;
+}
+
+.wordpress-conculation-col1 h3 {
+    padding-bottom: 1.5rem;
+}
+
+.wordpress-conculation-col2 {
+    padding-top: 2rem;
+}
+
+.wordpress-quote-form {
+    padding: 4rem;
+}
+
+.wordpress-form {
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 1px 0px 10px 0px rgba(254.25, 97.20376417769377, 1.6581521739130338, .5);
+}
+
+.wordpress-quote-form-child1 {
+    position: relative;
+    top: 1.5rem;
+}
+
+.wordpress-devlopment-process {
+    padding: 4rem;
+}
+
+/* horizontal accordian implement here start */
+
+/* horizontal accordian implement here end*/
+
+.wordpress-dev-quote {
+    padding: 5rem;
+    background-color: #000;
+    color: #fff;
+}
+
+.wordpress-dev-quote button {
+    border-color: #ff6400;
+    background-color: #ff6400;
+    color: #fff;
+    margin-top: 45px;
+}
+.wordpress-serv-wrapper{
+    padding: 4rem;
+}
+
+@media only screen and (max-width: 767px) {
+    .wordpress-wrapper-img {
+        height: 18rem;
+        background-position: 0rem;
+    }
+
+    .wordpress-wrapper-img h3 {
+        width: 100%;
+        left: 0rem;
+        top: 0rem;
+    }
+
+    .wordpress-conculation,
+    .wordpress-quote-form,
+    .wordpress-dev-quote {
+        padding: 0.5rem;
+    }
+
+    .wordpress-quote-form-child1 {
+        top: 0rem;
+    }
+
+    .wordpress-dev-quote button {
+        margin-top: 0px;
+        margin-bottom: 0.5rem;
+    }
+
+}

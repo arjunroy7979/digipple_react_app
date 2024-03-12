@@ -2,14 +2,14 @@ import './App.css';
 import Home from './Components/home/Home';
 import Navbar from './Components/navbar/Navbar';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import DigitalMarketing from './Components/pages/DigitalMarketing';
+import DigitalMarketing from './Components/pages/digitalmarketing/DigitalMarketing';
 import DigitalAdvertising from './Components/pages/digitaladvertising/DigitalAdvertising';
-import DigitalBranding from './Components/pages/DigitalBranding';
-import CreativeDesign from './Components/pages/CreativeDesign';
-import WordPress from './Components/pages/WordPress';
-import Blogs from './Components/pages/Blogs';
-import Aboutus from './Components/pages/Aboutus';
-import Contactus from './Components/pages/Contactus';
+import DigitalBranding from './Components/pages/digitalbranding/DigitalBranding';
+import CreativeDesign from './Components/pages/creativedesign/CreativeDesign';
+import WordPress from './Components/pages/wordpress/WordPress';
+import Blogs from './Components/pages/blogs/Blogs';
+import Aboutus from './Components/pages/about/Aboutus';
+import Contactus from './Components/pages/contact/Contactus';
 import Footer from './Components/footer/Footer';
 
 function App() {

@@ -1,0 +1,74 @@
+{
+    "posts": [
+        {
+            "id": 1,
+            "img": "../images/card1.jpg",
+            "title": "Campaigns",
+            "heading": "#letscelebratewomensdaily",
+            "shortpara": "In 2022, we celebrated an offline campaign on International Women’s Day, collecting..."
+        },
+        {
+            "id": 2,
+            "img": "../images/card2.jpg",
+            "title": "Campaigns",
+            "heading": "#letscelebratewomensdaily",
+            "shortpara": "In 2022, we celebrated an offline campaign on International Women’s Day, collecting..."
+        },
+        {
+            "id": 3,
+            "img": "../images/card3.jpg",
+            "title": "Campaigns",
+            "heading": "#letscelebratewomensdaily",
+            "shortpara": "In 2022, we celebrated an offline campaign on International Women’s Day, collecting..."
+        },
+        {
+            "id": 4,
+            "img": "../images/card4.png",
+            "title": "Campaigns",
+            "heading": "#letscelebratewomensdaily",
+            "shortpara": "In 2022, we celebrated an offline campaign on International Women’s Day, collecting..."
+        },
+        {
+            "id": 5,
+            "img": "../images/Branding-Guide.jpg",
+            "title": "Campaigns",
+            "heading": "#letscelebratewomensdaily",
+            "shortpara": "In 2022, we celebrated an offline campaign on International Women’s Day, collecting..."
+        },
+        {
+            "id": 6,
+            "img": "../images/Branding-Guide-FT.jpg",
+            "title": "Campaigns",
+            "heading": "#letscelebratewomensdaily",
+            "shortpara": "In 2022, we celebrated an offline campaign on International Women’s Day, collecting..."
+        },
+        {
+            "id": 7,
+            "img": "../images/Branding-Guide-FT-2.jpg",
+            "title": "Campaigns",
+            "heading": "#letscelebratewomensdaily",
+            "shortpara": "In 2022, we celebrated an offline campaign on International Women’s Day, collecting..."
+        },
+        {
+            "id": 8,
+            "img": "../images/Branding-Guide-FT.jpg",
+            "title": "Campaigns",
+            "heading": "#letscelebratewomensdaily",
+            "shortpara": "In 2022, we celebrated an offline campaign on International Women’s Day, collecting..."
+        },
+        {
+            "id": 9,
+            "img": "../images/card1.jpg",
+            "title": "Campaigns",
+            "heading": "#letscelebratewomensdaily",
+            "shortpara": "In 2022, we celebrated an offline campaign on International Women’s Day, collecting..."
+        },
+        {
+            "id": 10,
+            "img": "../images/card2.jpg",
+            "title": "Campaigns",
+            "heading": "#letscelebratewomensdaily",
+            "shortpara": "In 2022, we celebrated an offline campaign on International Women’s Day, collecting..."
+        }
+    ]
+}

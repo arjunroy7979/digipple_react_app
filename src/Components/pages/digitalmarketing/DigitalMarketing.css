@@ -1,0 +1,219 @@
+.digitalmarketing-wrapper-bg {
+    background: url('../../../../public/images/download.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 25rem;
+}
+
+.digitalmarketing-wrapper-bg-child {
+    width: 60%;
+    position: relative;
+    left: 8rem;
+    top: 4.5rem;
+}
+
+.digitalmarketing-wrapper-bg-form {
+    margin: 5rem 0px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    width: 90%;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, .5);
+}
+
+.digital-marketing-services {
+    padding: 4rem;
+    background-color: #000;
+    color: #fff;
+}
+
+.digital-marketing-services-child p {
+    border: 1px solid #000;
+    border-bottom-color: #fff;
+    padding: 0.8rem;
+}
+
+.digital-marketing-services-child h2,
+.digital-marketing-services-child1 {
+    margin-top: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.digital-marketing-card {
+    background-color: #f8f8f8;
+    padding: 4rem;
+}
+
+.digital-marketing-card-child {
+    display: flex;
+}
+
+.digital-marketing-card-child .card {
+    width: 19rem;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, .5);
+    padding: 1rem;
+}
+
+.digital-marketing-quote {
+    padding: 4rem;
+    background-color: #000;
+    color: #fff;
+}
+
+.digital-marketing-quote button {
+    margin-top: 2rem;
+}
+
+.digital-marketing-adson {
+    padding: 1.5rem;
+    background-color: #f8f8f8;
+}
+
+.accordian-wrappers h3 {
+    border: 1px solid #fff;
+    border-bottom-color: #000;
+    padding: 10px;
+    margin-bottom: 1rem;
+}
+
+.accordian-wrappers .accordian li {
+    list-style: none;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    border-radius: 8px;
+}
+
+.accordian-wrappers .accordian li label {
+    display: flex;
+    align-items: center;
+    padding: 3px;
+    font-size: 13px;
+    font-weight: 500;
+    cursor: pointer;
+    border-radius: 4px;
+    background-color: #f3f3f3;
+}
+
+.accordian-wrappers label::before {
+    content: '+';
+    margin-right: 10px;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.accordian-wrappers .accordian input[type='radio'] {
+    display: none;
+}
+
+.accordian-wrappers .accordian .content {
+    color: #555;
+    padding: 0 10px;
+    line-height: 26px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s, padding 0.5s;
+}
+
+.accordian-wrappers .accordian input[type='radio']:checked+label+.content {
+    max-height: 200px;
+}
+
+.accordian-wrappers .accordian input[type='radio']:checked+label::before {
+    content: '-';
+}
+
+.digital-marketing-serv-form {
+    background-color: #f8f8f8;
+    padding: 2rem;
+}
+
+form {
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 1px 0px 10px 0px rgba(254.25, 97.20376417769377, 1.6581521739130338, .5);
+}
+
+.digital-marketing-serv-form-child {
+    width: 80%;
+    position: relative;
+    left: 10rem;
+    top: 4rem;
+}
+
+.digital-marketing-progress-wrapper {
+    padding: 2rem;
+    background-color: #000;
+    color: #fff;
+}
+
+.digital-marketing-progress-wrapper-child p {
+    padding: 1rem;
+    border: 1px solid #000;
+    border-bottom-color: #fff;
+}
+
+.digital-marketing-details {
+    background-color: #fff;
+    padding: 2rem;
+}
+.fa-phone{
+    rotate: 100deg;
+}
+
+@media only screen and (max-width: 767px) {
+    .digitalmarketing-wrapper-bg {
+        height: 14rem;
+    }
+
+    .digitalmarketing-wrapper-bg-child {
+        width: 100%;
+        position: relative;
+        left: 0rem;
+        top: 0.5rem;
+    }
+
+    .digitalmarketing-wrapper-bg-form {
+        display: none;
+    }
+
+    .digital-marketing-services,
+    .digital-marketing-quote,
+    .digital-marketing-adson,
+    .digital-marketing-card,
+    .digital-marketing-serv-form,
+    .digital-marketing-progress-wrapper,
+    .digital-marketing-details {
+        padding: 0.5rem;
+    }
+
+    .digital-marketing-services-child1 {
+        margin-top: 1rem;
+        margin-bottom: 0rem;
+    }
+
+    .digital-marketing-card-child {
+        flex-direction: column;
+    }
+
+    .digital-marketing-card-child .card {
+        width: 100%;
+        margin: 1rem 0 0 0;
+        border-radius: 10px;
+        box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, .5);
+        padding: 1rem;
+    }
+
+    .digital-marketing-quote button {
+        margin-top: 0.5rem;
+        margin-bottom: 0.5rem;
+    }
+
+    .digital-marketing-serv-form-child {
+        width: 100%;
+        left: 0rem;
+        top: 0rem;
+    }
+}

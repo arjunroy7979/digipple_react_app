@@ -93,13 +93,49 @@ footer .copyright-section {
     border-radius: 100%;
 }
 
-.fa-comment-alt {
-    background-color: #ff6900;
+.fa-comment-alt,
+.fa-paper-plane {
+    background: linear-gradient(130deg, rgb(187, 4, 71) 0%, rgb(247, 79, 40) 100%);
     padding: 0.7rem;
     color: #fff;
     border-radius: 50%;
 }
 
+.form-serach {
+    padding: 25px;
+    box-shadow: rgba(0, 18, 46, 0.16) 0px 8px 36px 0px;
+    border-radius: 5px;
+    width: 30%;
+    position: fixed;
+    bottom: 10%;
+    left: 1.6rem;
+    color: #fff;
+    background: linear-gradient(120deg, rgb(211, 58, 114) 0%, rgb(209, 95, 70) 100%);
+}
+
+.fa-times-circle {
+    margin-left: 19.5rem;
+    margin-bottom: 1rem;
+    width: fit-content;
+}
+
+.chat-support {
+    padding: 20px;
+    box-shadow: rgba(0, 18, 46, 0.16) 0px 8px 36px 0px;
+    background: linear-gradient(135deg, rgb(152, 3, 58) 0%, rgb(247, 79, 40) 100%);
+    border-radius: 10px;
+    width: 25%;
+    height: fit-content;
+    position: fixed;
+    right: 4.4rem;
+    bottom: 1rem;
+    color: #fff;
+}
+
+.fa-circle {
+    font-size: 0.5rem;
+    margin-top: 0.4rem;
+}
 
 @media only screen and (max-width: 767px) {
     footer {
@@ -109,7 +145,9 @@ footer .copyright-section {
     .footer-side-links>.fa-search,
     .footer-side-links strong,
     .footer-side-links .social-link,
-    .comment {
+    .comment,
+    .chat-support,
+    .form-serach {
         display: none;
     }
 }

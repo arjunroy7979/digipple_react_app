@@ -1,0 +1,81 @@
+.blogs-wrapper {
+    padding: 2rem;
+}
+
+.select-blogs {
+    height: 1.3rem;
+    font-size: 0.8rem;
+    margin-left: 0.5rem;
+}
+
+.blogs-wrapper-child input {
+    font-size: 0.7rem;
+    height: 2rem;
+    background-color: #f6f6f6;
+    border: none;
+}
+
+.blogs-wrapper-child a {
+    text-decoration: none;
+    font-size: 0.8rem;
+    color: #000;
+}
+
+.social-links .fa-facebook-f,
+.social-links .fa-linkedin,
+.social-links .fa-pinterest,
+.social-links .fa-twitter {
+    margin: 0.6rem;
+    border: none;
+    color: #000;
+    text-decoration: none;
+}
+
+.social-links .fa-linkedin:hover,
+.social-links .fa-twitter:hover {
+    background-color: #fff;
+    color: #000;
+    text-decoration: none;
+}
+
+.blogs-wrapper-child1 .card {
+    width: 18rem;
+    height: fit-content;
+    cursor: pointer;
+    display: inline-block;
+    gap: 1rem;
+    margin-left: 0.5rem;
+    margin-bottom: 0.8rem;
+}
+
+.inner {
+    overflow: hidden;
+}
+
+.inner img {
+    transition: all 1.5s ease;
+}
+
+.inner:hover img {
+    transform: scale(1.2);
+}
+
+
+@media only screen and (max-width: 767px) {
+    .blogs-wrapper {
+        padding: 0.5rem;
+    }
+
+    .blogs-wrapper-child {
+        display: none;
+    }
+
+    .select-blogs {
+        margin-left: 0rem;
+    }
+
+    .blogs-wrapper-child1 .card {
+        width: 100%;
+    }
+
+}

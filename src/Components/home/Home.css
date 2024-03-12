@@ -14,7 +14,7 @@
 }
 
 .wrapper-adv-img {
-    background: url('../../../public/images/img5.png');
+    background: url('../../../public/images/img5.jpg');
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -97,6 +97,10 @@
 
     .wrapper-adv button {
         margin: 1rem 0 0 0;
+    }
+
+    .wrapper-adv-img {
+        height: 15rem;
     }
 
     .wrapper-adv-img h2 {
